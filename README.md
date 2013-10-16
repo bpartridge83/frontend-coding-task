@@ -35,3 +35,10 @@ The version using hashes (eg. #mark-twain) doesn't need any server, because the 
 ### Passes W3C HTML5 Validation
 
 http://validator.w3.org/check?uri=http://frontend-coding-task.herokuapp.com
+
+### Installation
+
+    git clone https://github.com/bpartridge83/frontend-coding-task.git
+    cd frontend-coding-task
+    npm install
+    npm start

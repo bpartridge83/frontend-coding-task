@@ -1,16 +1,27 @@
 {
-  "name": "code-sample",
-  "version": "0.0.0",
-  "description": "",
+  "name": "frontend-code-task",
+  "version": "0.1.0",
+  "description": "A simple 3-tab app using pushState / hash-based navigation",
+  "homepage": "http://frontend-coding-task.herokuapp.com/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "repository": "",
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpartridge83/frontend-coding-task"
+  },
+  "author": {
+    "name": "Brian Partridge",
+    "email": "bpartridge83@gmail.com",
+    "url": "http://brianpartridge.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/bpartridge83/frontend-coding-task/issues",
+    "email": "bpartridge83@gmail.com"
+  },
   "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "ae531444af5f933b96b6f3558dfcbb1a7f084d9d",
   "dependencies": {
     "express": "~3.4.1"
   }
