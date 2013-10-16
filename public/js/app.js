@@ -67,11 +67,12 @@
    */
   window.onload = function () {
     var links = document.getElementsByTagName('a'),
-      route = window.location.pathname;
+      route = window.location.hash || window.location.pathname;
 
     // If no specific route is available yet (/), enable first link/content
-    if (route.length < 2) {
+    if (route.length < 2 || route.indexOf('hash') > -1) {
       route = document.getElementsByTagName('a')[0].getAttribute('href');
+      window.location.replace(route);
     }
 
     setActive(route);
