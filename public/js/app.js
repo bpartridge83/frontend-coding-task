@@ -72,7 +72,7 @@
     // If no specific route is available yet, enable first link/content
     if (route.length < 2 || route.indexOf('hash') > -1) {
       route = document.getElementsByTagName('a')[0].getAttribute('href');
-      window.location.replace(route);
+      window.history.replaceState(route, null, route);
     }
 
     setActive(route);
