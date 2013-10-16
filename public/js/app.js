@@ -23,7 +23,7 @@
       // The reason these aren't combined logic statements is that
       // content and links elements might be ordered differently.
       // If we can ensure they are both ordered the same,
-      // we can set/unset the link class and hide/show the content simultaneously
+      // we can set the link class and hide/show the content simultaneously
 
       if (links[i].getAttribute('href') === route) {
         links[i].setAttribute('class', 'active');
@@ -69,7 +69,7 @@
     var links = document.getElementsByTagName('a'),
       route = window.location.hash || window.location.pathname;
 
-    // If no specific route is available yet (/), enable first link/content
+    // If no specific route is available yet, enable first link/content
     if (route.length < 2 || route.indexOf('hash') > -1) {
       route = document.getElementsByTagName('a')[0].getAttribute('href');
       window.location.replace(route);
