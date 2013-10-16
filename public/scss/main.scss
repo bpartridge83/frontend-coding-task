@@ -10,10 +10,16 @@ html, body {
 }
 
 body {
+	
 	background: none #f1f7fd;
 	position: relative;
 	font-family: "Helvetica", sans-serif;
 	font-size: 16px;
+
+	@media screen and (max-width: 480px) {
+		background: none #fff;
+	}
+
 }
 
 .wrapper {
@@ -46,10 +52,12 @@ body {
 	}
 
 	@media screen and (max-width: 480px) {
-		width: 96%;
-		left: 2%;
-		height: 97%;
-		top: 1.5%;
+		width: auto;
+		height: auto;
+		left: auto;
+		top: auto;
+		border: none;
+		box-shadow: none;
 	}
 
 }
@@ -70,15 +78,7 @@ nav {
 
 	padding: 10px 10px 0;
 	text-align: center;
-
-	&:before, &:after {
-		content: " ";
-		display: table;
-	}
-
-	&:after {
-		clear: both;
-	}
+	font-size: 0%;
 
 	a {
 
@@ -92,16 +92,17 @@ nav {
 		text-decoration: none;
 		color: #444;
 		font-weight: bold;
-
-		&.active {
-			background: none #f8f8f8;
-			color: #111;
-			box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.10);
-		}
+		font-size: 16px;
 
 		&:hover {
-			background: none #fafafa;
+			background: none #fcfcfc;
 			box-shadow: inset 0px 0px 8px rgba(255, 255, 255, 0.40);
+		}
+
+		&.active {
+			background: none #f5f5f5;
+			color: #111;
+			box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.1);
 		}
 
 		&:last-child {
@@ -109,12 +110,12 @@ nav {
 		}
 
 		@media screen and (max-width: 480px) {
-			font-size: 0.9em;
+			font-size: 14px;
 			margin-right: 0.5%;
 		}
 
 		@media screen and (max-width: 320px) {
-			font-size: 0.6em;
+			font-size: 12px;
 		}
 
 	}
@@ -124,7 +125,7 @@ nav {
 p {
 
 	margin: 0 0 1em;
-	font-size: 0.95em;
+	font-size: 15px;
 	line-height: 1.4;
 
 	&:last-child {
@@ -132,7 +133,7 @@ p {
 	}
 
 	@media screen and (max-width: 600px) {
-		font-size: 0.85em;
+		font-size: 14px;
 	}
 
 }

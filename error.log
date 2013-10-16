@@ -1,0 +1,105 @@
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:884:11)
+    at Server._listen2 (net.js:1022:14)
+    at listen (net.js:1044:10)
+    at Server.listen (net.js:1110:5)
+    at Function.app.listen (/Users/bpartridge/Sites/code-sample/node_modules/express/lib/application.js:535:24)
+    at Object.<anonymous> (/Users/bpartridge/Sites/code-sample/index.js:12:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:884:11)
+    at Server._listen2 (net.js:1022:14)
+    at listen (net.js:1044:10)
+    at Server.listen (net.js:1110:5)
+    at Function.app.listen (/Users/bpartridge/Sites/code-sample/node_modules/express/lib/application.js:535:24)
+    at Object.<anonymous> (/Users/bpartridge/Sites/code-sample/index.js:12:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:884:11)
+    at Server._listen2 (net.js:1022:14)
+    at listen (net.js:1044:10)
+    at Server.listen (net.js:1110:5)
+    at Function.app.listen (/Users/bpartridge/Sites/code-sample/node_modules/express/lib/application.js:535:24)
+    at Object.<anonymous> (/Users/bpartridge/Sites/code-sample/index.js:12:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:884:11)
+    at Server._listen2 (net.js:1022:14)
+    at listen (net.js:1044:10)
+    at Server.listen (net.js:1110:5)
+    at Function.app.listen (/Users/bpartridge/Sites/code-sample/node_modules/express/lib/application.js:535:24)
+    at Object.<anonymous> (/Users/bpartridge/Sites/code-sample/index.js:12:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:884:11)
+    at Server._listen2 (net.js:1022:14)
+    at listen (net.js:1044:10)
+    at Server.listen (net.js:1110:5)
+    at Function.app.listen (/Users/bpartridge/Sites/code-sample/node_modules/express/lib/application.js:535:24)
+    at Object.<anonymous> (/Users/bpartridge/Sites/code-sample/index.js:12:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:884:11)
+    at Server._listen2 (net.js:1022:14)
+    at listen (net.js:1044:10)
+    at Server.listen (net.js:1110:5)
+    at Function.app.listen (/Users/bpartridge/Sites/code-sample/node_modules/express/lib/application.js:535:24)
+    at Object.<anonymous> (/Users/bpartridge/Sites/code-sample/index.js:12:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:884:11)
+    at Server._listen2 (net.js:1022:14)
+    at listen (net.js:1044:10)
+    at Server.listen (net.js:1110:5)
+    at Function.app.listen (/Users/bpartridge/Sites/code-sample/node_modules/express/lib/application.js:535:24)
+    at Object.<anonymous> (/Users/bpartridge/Sites/code-sample/index.js:12:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
