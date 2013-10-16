@@ -1,0 +1,17 @@
+{
+  "name": "code-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "ae531444af5f933b96b6f3558dfcbb1a7f084d9d",
+  "dependencies": {
+    "express": "~3.4.1"
+  }
+}
